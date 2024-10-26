@@ -1,0 +1,84 @@
+#dirRegistro {
+    max-width: 400px;
+    background-image: url(src/assets/fondo.jpg);
+    width: 30vw; /* Ancho total de la ventana de visualización */
+    margin: 50px auto;
+    padding: 20px;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dirRegistro h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"], input[type="password"], select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+select {
+    background-color: #fff;
+}
+
+#agregar {
+    padding: 10px;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#agregar:hover {
+    background-color: #004d40;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #17b832;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #369a1b;
+}
+
+#texto{
+    margin: 0 auto;
+    display: inline-block; /* Asegura que el enlace sea tratado como un bloque en línea */
+  
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    #dirRegistro {
+        width: 90%;
+    }
+}
